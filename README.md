@@ -1,4 +1,4 @@
-# ? FarhuGPT — AI-Assisted ChatGPT Clone
+# ? FarhuGPT â€” AI-Assisted ChatGPT Clone
 
 > A fast, modern, full-featured AI chat interface built with **React + Vite**, powered by real-time WebSocket streaming.
 
@@ -11,16 +11,16 @@
 
 ## ? Features
 
-- ?? **Real-time Streaming** — WebSocket-based token-by-token streaming responses
-- ?? **Multi-Session Chat** — Create, switch, and delete multiple independent chat threads
-- ?? **Persistent History** — All conversations auto-saved to `localStorage`
-- ??? **Configurable System Prompt** — Customize the AI persona on the fly
-- ?? **Markdown Rendering** — Full support for headings, bullet points, and syntax-highlighted code blocks
-- ?? **Typing Indicators** — Animated dots while awaiting the first response token
-- ?? **Cancelable Generation** — Stop any streaming response mid-flight
-- ?? **Responsive Design** — Mobile-first layout with slide-in sidebar
-- ?? **Dual AI Engine** — Instant local knowledge base + optional OpenAI API key support
-- ?? **Suggestion Cards** — Pre-built prompts on the welcome screen to get started fast
+- ?? **Real-time Streaming** â€” WebSocket-based token-by-token streaming responses
+- ?? **Multi-Session Chat** â€” Create, switch, and delete multiple independent chat threads
+- ?? **Persistent History** â€” All conversations auto-saved to `localStorage`
+- ??? **Configurable System Prompt** â€” Customize the AI persona on the fly
+- ?? **Markdown Rendering** â€” Full support for headings, bullet points, and syntax-highlighted code blocks
+- ?? **Typing Indicators** â€” Animated dots while awaiting the first response token
+- ?? **Cancelable Generation** â€” Stop any streaming response mid-flight
+- ?? **Responsive Design** â€” Mobile-first layout with slide-in sidebar
+- ?? **Dual AI Engine** â€” Instant local knowledge base + optional OpenAI API key support
+- ?? **Suggestion Cards** â€” Pre-built prompts on the welcome screen to get started fast
 
 ---
 
@@ -75,21 +75,21 @@ npm run preview
 ```
 ai-chatbot/
 +-- public/
-¦   +-- favicon.svg
-¦   +-- icons.svg
+Â¦   +-- favicon.svg
+Â¦   +-- icons.svg
 +-- src/
-¦   +-- assets/
-¦   ¦   +-- hero.png
-¦   +-- components/
-¦   ¦   +-- CodeBlock.jsx        # Syntax-highlighted code block renderer
-¦   ¦   +-- MarkdownRenderer.jsx # Converts markdown strings to React elements
-¦   +-- services/
-¦   ¦   +-- aiEngine.js          # Local AI engine + OpenAI streaming adapter
-¦   +-- App.jsx                  # Main chat application (FarhuGPT)
-¦   +-- DominicChatbot.jsx       # Alternate persona chatbot (Dominic Toretto)
-¦   +-- App.css                  # Component styles
-¦   +-- index.css                # Global design system & tokens
-¦   +-- main.jsx                 # React entry point
+Â¦   +-- assets/
+Â¦   Â¦   +-- hero.png
+Â¦   +-- components/
+Â¦   Â¦   +-- CodeBlock.jsx        # Syntax-highlighted code block renderer
+Â¦   Â¦   +-- MarkdownRenderer.jsx # Converts markdown strings to React elements
+Â¦   +-- services/
+Â¦   Â¦   +-- aiEngine.js          # Local AI engine + OpenAI streaming adapter
+Â¦   +-- App.jsx                  # Main chat application (FarhuGPT)
+Â¦   +-- DominicChatbot.jsx       # Alternate persona chatbot (Dominic Toretto)
+Â¦   +-- App.css                  # Component styles
+Â¦   +-- index.css                # Global design system & tokens
+Â¦   +-- main.jsx                 # React entry point
 +-- index.html
 +-- vite.config.js
 +-- package.json
@@ -101,16 +101,16 @@ ai-chatbot/
 
 FarhuGPT uses a **dual-layer AI system**:
 
-1. **WebSocket Backend** (default) — Streams responses in real-time via `wss://backend.buildpicoapps.com/api/chatbot/chat`. No API key required.
+1. **WebSocket Backend** (default) â€” Streams responses in real-time via `wss://backend.buildpicoapps.com/api/chatbot/chat`. No API key required.
 
-2. **Local Knowledge Base** — Instant, markdown-rich responses for common developer topics:
+2. **Local Knowledge Base** â€” Instant, markdown-rich responses for common developer topics:
    - React hooks (`useState`, `useEffect`)
    - Async/Await & Promises
    - Git commands
    - CSS centering
    - Python list comprehensions
 
-3. **OpenAI API** (optional) — Provide your own `gpt-4o-mini` key in `aiEngine.js` for live, unconstrained responses.
+3. **OpenAI API** (optional) â€” Provide your own `gpt-4o-mini` key in `aiEngine.js` for live, unconstrained responses.
 
 ---
 
@@ -172,4 +172,4 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Made with ?? by [farhanmd789](https://github.com/farhanmd789)
+Made  by [farhanmd789](https://github.com/farhanmd789)
